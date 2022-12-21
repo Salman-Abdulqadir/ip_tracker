@@ -4,9 +4,22 @@
     box-sizing: border-box
 }
 body{
-    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
+.flex, .flex-col{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.flex-col{
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center
+}
 
 @import "./map";
 @import "./search";
