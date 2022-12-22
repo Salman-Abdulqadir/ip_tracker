@@ -1,7 +1,7 @@
 @media screen and (max-width: 860px) {
   .search-section {
     justify-content: flex-start;
-    min-height: 25vh;
+    min-height: 30vh;
     padding-top: 1rem;
     h1{
         font-size: 1.5rem;
@@ -13,7 +13,7 @@
   }
   .info-section {
     flex-direction: column;
-    top: 10rem;
+    top: 22%;
     padding: 1rem;
     width: 70%;
     .card {
